@@ -1,0 +1,23 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.container {
+    height: 60px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+.container a {
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.container a:hover {
+    color: orange;
+    transition: all .5s ease;
+}
