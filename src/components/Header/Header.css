@@ -1,5 +1,6 @@
 .header {
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1;
 }
@@ -11,13 +12,13 @@
     justify-content: space-between;
     padding: 0 80px;
 }
-.container a {
+.container .a {
     color: #ffffff;
     font-size: 17px;
     text-decoration: none;
     margin-left: 30px;
 }
-.container a:hover {
+.container .a:hover {
     color: orange;
     transition: all .5s ease;
 }

@@ -1,0 +1,39 @@
+.review-container {
+    width: 700px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.review-content {
+    display: flex;
+    align-items: center;
+}
+.review-img {
+    width: 100px;
+    padding: 10px;
+}
+.review-img img {
+    width: 100%;
+}
+.review-info {
+    line-height: 10px;
+}
+.review-delete {
+    background-color: #EB57574D;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.review-delete-icon {
+    font-size: 20px;
+    color: #EB5757;
+}
+.gold {
+    color: #FF9900;
+}
