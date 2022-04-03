@@ -18,6 +18,12 @@
     text-decoration: none;
     margin-left: 30px;
 }
+.container .active {
+    color: orange;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 30px;
+}
 .container .a:hover {
     color: orange;
     transition: all .5s ease;
