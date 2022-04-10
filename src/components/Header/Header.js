@@ -13,10 +13,12 @@ const Header = () => {
                     <NavLink className={({ isActive }) => isActive ? 'active' : 'a'} to="/orders">Orders</NavLink>
                     <NavLink className={({ isActive }) => isActive ? 'active' : 'a'} to="/inventory">Inventory</NavLink>
                     <NavLink className={({ isActive }) => isActive ? 'active' : 'a'} to="/about">About</NavLink>
+                    <NavLink className={({ isActive }) => isActive ? 'active' : 'a'} to="/login">Login</NavLink>
                 </div>
             </div>
         </nav>
     );
 };
+
 
 export default Header;
