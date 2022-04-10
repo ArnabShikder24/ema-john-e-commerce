@@ -28,3 +28,17 @@
     color: orange;
     transition: all .5s ease;
 }
+.logOut {
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 17px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    background-color: rgba(255, 166, 0, 0.801);
+    color: #ffffff;
+    padding: 4px 10px;
+}
+.logOut:hover {
+    background-color: rgba(255, 166, 0, 0.932);
+    transition: all .4s ease;
+}

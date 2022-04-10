@@ -1,6 +1,7 @@
-import { faCreditCard } from '@fortawesome/free-solid-svg-icons';
+import { faTruckFast } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useCart from '../../hooks/useCart';
 import useProducts from '../../hooks/useProducts';
 import { deleteShoppingCart, removeFromDb } from '../../utilities/fakedb';
@@ -11,6 +12,7 @@ import './Orders.css'
 const Orders = () => {
     const [products] = useProducts();
     const [cart, setCart] = useCart(products);
+    const navigate = useNavigate();
 
     const clearCart = () => {
         setCart([])
@@ -38,9 +40,9 @@ const Orders = () => {
             </div>
             <div className="cart-container">
                 <Cart clearCart={clearCart} cart={cart}>
-                    <button style={{background: '#FF9900'}}>
-                        Proceed Checkout
-                        <FontAwesomeIcon style={{paddingLeft: '5px'}} icon={faCreditCard}></FontAwesomeIcon>
+                    <button onClick={() => navigate('/shipment')} style={{background: '#FF9900'}}>
+                        Proceed Shipping
+                        <FontAwesomeIcon style={{paddingLeft: '5px'}} icon={faTruckFast}></FontAwesomeIcon>
                     </button>
                 </Cart>
             </div>

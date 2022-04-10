@@ -36,6 +36,7 @@ const SignUp = () => {
         setError('');
         setSuccesful('')
         createUserWithEmailAndPassword(email, password);
+
     }
 
 
