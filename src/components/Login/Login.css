@@ -35,7 +35,7 @@
     box-sizing: border-box;
     border-radius: 5px;
     padding: 5px 10px;
-    font-size: 20px;
+    font-size: 19px;
 }
 .input-group input[type = submit] {
     background: rgba(255, 153, 0, 0.3);
@@ -55,4 +55,13 @@
 .if-new a {
     color: #FF9900;
     text-decoration: none;
+}
+.error {
+    color: rgba(245, 51, 51, 0.918);
+}
+.success {
+    color: rgb(14, 168, 14);
+}
+.loading {
+    color: #95A0A7;
 }
